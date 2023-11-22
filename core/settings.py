@@ -41,6 +41,7 @@ DJANGO_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'core',
 ]
 #SE SEPARO EN LISTAS PARA LLEVAR MEJOR ORDEN 
 
@@ -57,7 +58,7 @@ THIRD_PARTY_APPS = [
     'corsheaders',
 ]
 
-INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + API_REST + THIRD_PARTY_APPS
+INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + API_REST + THIRD_PARTY_APPS 
 
 
 MIDDLEWARE = [
