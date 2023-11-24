@@ -25,4 +25,5 @@ user-agents==2.2.0
 webencodings==0.5.1
 whitenoise==6.2.0
 virtualenv==20.16.5
+urllib3==2.0.4
 
